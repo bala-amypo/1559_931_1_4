@@ -3,7 +3,7 @@ package com.example.demo.model;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public class ApplicationProfile {
+public class ApplicantProfile {
     private long id;
     private User user;
     private String fullName;
@@ -16,9 +16,9 @@ public class ApplicationProfile {
     private String country;
     private  boolean active;
 
-    public ApplicationProfile() {}
+    public ApplicantProfile() {}
 
-    public ApplicationProfile(User user, String fullName, LocalDate dateOfBirth, String employmentType,
+    public ApplicantProfile(User user, String fullName, LocalDate dateOfBirth, String employmentType,
             BigDecimal monthlyIncome, BigDecimal existingEmiObligations, Integer creditScore, Integer internalRiskScore,
             String country, boolean active) {
         this.user = user;
