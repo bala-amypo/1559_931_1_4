@@ -82,5 +82,55 @@ public class LoanProduct {
         this.baseRiskWeight = baseRiskWeight;
     }
 
+
+    public long getId() {
+        return id;
+    }
+
+
+    public String getProductCode() {
+        return productCode;
+    }
+
+
+    public String getProductName() {
+        return productName;
+    }
+
+
+    public String getLoanType() {
+        return loanType;
+    }
+
+
+    public BigDecimal getMinAmount() {
+        return minAmount;
+    }
+
+
+    public BigDecimal getMaxAmount() {
+        return maxAmount;
+    }
+
+
+    public int getMinTenureMonths() {
+        return minTenureMonths;
+    }
+
+
+    public int getMaxTenureMonths() {
+        return maxTenureMonths;
+    }
+
+
+    public double getAnnualInterestRatePercent() {
+        return annualInterestRatePercent;
+    }
+
+
+    public int getBaseRiskWeight() {
+        return baseRiskWeight;
+    }
+
     
 }
